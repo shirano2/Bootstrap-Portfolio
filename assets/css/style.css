@@ -1,0 +1,102 @@
+*{
+    color:#777777;
+    font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height:150%;
+}
+#logo {
+    min-width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+.wrapper {
+    background:url("../images/intersection.png"); 
+    padding-top:20px;
+    padding-bottom:20px;
+}
+ul.navbar-nav {
+    margin:auto;
+    margin-right:0;
+}
+h1 {
+    font-family:Georgia, Times, "Times New Roman", serif;
+}
+section h1{
+    color:#4aaaa5;
+}
+article img {
+    margin-right:10px;
+}
+section.container {
+    width:90%;
+    background-color:white;
+}
+footer {
+    background-color:#666666;
+    border-top:8px solid #4aaaa5;
+    padding:10px;
+    color:#ffffff;
+    text-align:center;
+}
+input {
+    width:100%;
+}
+input:focus {
+    background-color:#D8ECFF;
+}
+textarea{
+    width:100%;
+    height:300px;
+}
+textarea:focus {
+    background-color:#D8ECFF;
+}
+button {
+    background-color:#01c99f;
+    color:#ffffff;
+    text-align:center;
+    border-width:0;
+    padding:5px 20px 5px 20px;
+    font-size:20px;   
+    margin-bottom:10px;
+}
+button:hover{
+    background-color:#5c00ce;
+}
+#images{
+    padding:20px;
+}
+#images div{
+    position:relative;
+    margin-right:100px;
+    margin-bottom:40px;
+    padding-left:0;
+}
+#images img{
+    width:300px;
+    height:200px;
+}
+#images h1{
+    box-sizing:border-box;
+    font-size:34px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:300px;
+    height:40px;
+    margin:0;
+    position:absolute;
+    top:150px;
+    bottom:50px;
+    left:0px;
+    right:300px;
+    text-align:center;
+}
+#images h1:hover{
+    color:#5c00ce;
+}
